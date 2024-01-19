@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Fornecedor {
-    private String nome;
+    private String nomeFornecedor;
     private String cnpj;
     private String telefone;
     private String nomeVendedor;
@@ -18,7 +18,7 @@ public class Fornecedor {
     private Endereco endereco;
 
     public Fornecedor(DadosFornecedor dadosFornecedor){
-        this.nome = dadosFornecedor.nome();
+        this.nomeFornecedor = dadosFornecedor.nomeFornecedor();
         this.cnpj = dadosFornecedor.cnpj();
         this.telefone = dadosFornecedor.telefone();
 
