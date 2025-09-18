@@ -5,8 +5,9 @@ import jakarta.persistence.Embedded;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
-@Embeddable
+
 @NoArgsConstructor
+@Embeddable
 @AllArgsConstructor
 public class Fornecedor {
     private String nomeFornecedor;
